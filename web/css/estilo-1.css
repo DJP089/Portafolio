@@ -1,27 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Bebas Neue', cursive;
-    overflow-x: hidden;   
+    font-family: 'Bebas Neue', sans-serif; 
 }
 
 .wrapper {
-    width: 1000vw;
+    width: 100vw;
     height: 100vh;
-    background-color: maroon;
+    background-color: rgb( 19, 22, 41);
     color: aliceblue;
 }
 
+.navbar {
+   display: flex;
+   justify-content: space-between; 
+   padding: 2rem;
+}
 
+.brand {
+    margin-top: -7px;
+    font-size: 44px;
+}
+
+.brand span{
+    color: rgb(222, 50, 59);
+
+}
+
+.menu {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin-top: 22px;
+    font-size: 18px;
+}
+
+.menu li{
+    list-style: none;
+}
 
 .menu a {
     color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+}   
 
+.menu .active{
+    color: rgb(222, 50, 59);
 
+}
+.menu a:hover {
+    color: rgb( 19, 22, 41);
+    background-color: rgb(85, 85, 85);
+    background-size: 50vh, 10vw;
+    transition: ease-in .3s;
 }
