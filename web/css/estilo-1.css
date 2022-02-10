@@ -10,3 +10,18 @@ body{
     font-family: 'Bebas Neue', cursive;
     overflow-x: hidden;   
 }
+
+.wrapper {
+    width: 1000vw;
+    height: 100vh;
+    background-color: maroon;
+    color: aliceblue;
+}
+
+
+
+.menu a {
+    color: aliceblue;
+
+
+}
