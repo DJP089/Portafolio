@@ -105,9 +105,38 @@ img{
     margin-top: 14px;
 }
 
-.proyectos{
+.sobre {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     width: 100vw;
+    align-items: center;
 }
 
+.sobre img {
+    width: 70%;
+    margin-left: 0;
+    grid-column: 1/5;
+}
+
+.sobre-info {
+    grid-column: 5/10;
+    padding: 2em;
+    border: 5px solid rgb(222, 50, 59);
+}
+
+.sobre-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.sobre-info p {
+ color: rgb( 19, 22, 41);
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: rgb(222, 50, 59);
+    margin-top: 10px;
+    margin-bottom: m;
+}
