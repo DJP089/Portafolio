@@ -61,3 +61,44 @@ body{
     background-size: 50vh, 10vw;
     transition: ease-in .3s;
 }
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h1 {
+font-size: 3em;
+}
+
+span{
+    color: rgb(222, 50, 59);
+}
+.main img{
+    border: 7px solid rgb(222, 50, 59);
+
+}
+img{
+    max-width: 40vw;
+    max-height: 40vw;
+    margin-left: 240px;
+}
+
+.descargar-cv{
+    padding: 8px 18px;
+    background-color: rgb(85, 85, 85);
+    border: none;
+    margin-top: 8px; 
+}
+.descargar-cv:hover {  
+    padding: 10px 20px;
+    background-color: rgb(222, 50, 59);
+    transition: ease-in .2s;
+    border: none;
+    border-radius: 10px;
+    margin-top: 14px;
+}
