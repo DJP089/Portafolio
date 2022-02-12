@@ -242,3 +242,63 @@ img{
     margin-top: 1em;
 }
 
+
+.seccion-contacto {
+    background-color: rgb( 19, 22, 41);
+}
+.contacto-h h2{
+    font-size: 3em;
+}
+.seccion-contacto img{
+    opacity: 50%;
+}
+
+.container-contact {
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.container-contact img{
+    width: 700px;
+    height: 700px;
+    bottom: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30 ww;
+    margin-top: 2em;    
+}
+
+.form input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+.form textarea{
+    height: 150px;
+    background: none;
+    color: aliceblue;
+    padding: 1.5em;
+    border: 1px solid aliceblue;
+    
+}
+.submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(222, 50, 59);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(222, 50, 59,0.69);
+}
+
+.submit:hover{
+    background-color: aliceblue;
+}
