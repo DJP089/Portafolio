@@ -73,21 +73,22 @@ body{
 
 
 .main {
+
     margin: 0 auto;
     width: 80vw;
     height: 80vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
+    align-items:center;
 }
 
 h1 {
-    
+  
     margin-top: -200px;
     font-size: 6em;
 }
 .main p{
-    display: flex;
+   
     font-size: 2em;
     margin-bottom: .4em;
 }
@@ -133,16 +134,18 @@ img{
 
 .sobre img {
     width: 100%;
-    max-height: 160%;
+    max-height: 190%;
     margin-left: 3px;
     grid-column: 1/5;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .sobre-info {
     grid-column: 5/10;
     padding: 2em;
     border: 5px solid rgb(222, 50, 59);
+    display: inline-table;
 }
 
 .sobre-info h2 {
@@ -170,8 +173,9 @@ img{
 }
 
 .portafolio-h{
+    font-size: 40px;
     width: 100vw;
-    padding: 5em;
+    padding: 1.4em;
     color: aliceblue;
 }
 
@@ -189,17 +193,33 @@ img{
 
 .carta { 
     width: 300px;
-    height: 580px;
+    height: 590px;
     color: aliceblue;
     background-color: rgb(43, 135, 197);
     border-radius: 10px;
     margin: 1.5em;
 }
 
-.carta-img {
+.carta-img1 {
     width: 100%;
     height: 250px;
-    background-image: url(../css/interact.jpeg);
+    background-image: url(./tallePalacios.jpeg);
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.carta-img2 {
+    width: 100%;
+    height: 250px;
+    background-image: url(./interact.jpeg);
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.carta-img4 {
+    width: 100%;
+    height: 250px;
+    background-image: url(./proyecto-vida.jpeg);
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -245,13 +265,14 @@ img{
 
 .seccion-contacto {
     background-color: rgb( 19, 22, 41);
+
 }
 .contacto-h h2{
-    font-size: 3em;
+    font-size: 5em;
+    color: aliceblue;
+
 }
-.seccion-contacto img{
-    opacity: 50%;
-}
+
 
 .container-contact {
     padding: 3em;
@@ -262,6 +283,11 @@ img{
     width: 700px;
     height: 700px;
     bottom: 0;
+    
+}
+
+.contacto-form h4{
+    
 }
 
 .form {
@@ -301,4 +327,34 @@ img{
 
 .submit:hover{
     background-color: aliceblue;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(222, 50, 59);
+}
+
+.footer-contenido h2{
+    font-size: 2.9em;
+}
+.footer-contenido h5{
+    
+    font-size: 1.5em;
+    margin-left: 64px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 1em;
+}
+
+.social i{
+    font-size: 1.8em;
 }
