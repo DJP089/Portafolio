@@ -169,6 +169,7 @@ img{
 
 .portafolio {
     width: 100vw;
+    height: 80vh;
     background-color: rgb( 19, 22, 41);
 }
 
@@ -287,7 +288,8 @@ img{
 }
 
 .contacto-form h4{
-    
+    color: aliceblue;
+    font-size: 2.9em;
 }
 
 .form {
